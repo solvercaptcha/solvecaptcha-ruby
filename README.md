@@ -11,7 +11,7 @@
 
 # 💎 Ruby captcha solver: Bypass reCAPTCHA, Cloudflare, hCaptcha, Amazon and more
 
-Use the [Ruby captcha solver](https://solvecaptcha.com/lang/ruby) to automatically bypass captchas like reCAPTCHA v2, v3, Invisible, Enterprise, hCaptcha, Cloudflare Turnstile, GeeTest, FunCaptcha, and Amazon WAF in any Ruby app.
+Use the [Ruby captcha solver](https://solvecaptcha.com/captcha-solver/ruby-captcha-solver-bypass) to automatically bypass captchas like reCAPTCHA v2, v3, Invisible, Enterprise, hCaptcha, Cloudflare Turnstile, GeeTest, FunCaptcha, and Amazon WAF in any Ruby app.
 
 ## ✅ Supported captcha solvers
 
