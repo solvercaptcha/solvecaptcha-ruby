@@ -1,4 +1,4 @@
-# Contributing to solvecaptcha-go
+# Contributing to solvecaptcha-ruby
 
 Thank you for considering contributing to the solvecaptcha-csharp! By contributing, you're helping improve the project and enabling others to benefit from your improvements.
 
@@ -10,7 +10,7 @@ Here are a few guidelines to help you get started.
    If you'd like to contribute, please start by forking the project and cloning it to your local machine.
 
    ```bash
-   git clone https://github.com/solvercaptcha/solvecaptcha-csharp.git
+   git clone https://github.com/solvercaptcha/solvecaptcha-ruby.git
    ```
 
 2. **Create a new branch**  
