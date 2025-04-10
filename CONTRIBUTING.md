@@ -1,6 +1,6 @@
 # Contributing to solvecaptcha-ruby
 
-Thank you for considering contributing to the solvecaptcha-csharp! By contributing, you're helping improve the project and enabling others to benefit from your improvements.
+Thank you for considering contributing to the solvecaptcha-ruby! By contributing, you're helping improve the project and enabling others to benefit from your improvements.
 
 Here are a few guidelines to help you get started.
 
