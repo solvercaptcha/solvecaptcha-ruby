@@ -3,24 +3,26 @@ name: Publish RubyGem
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - 'v*.*.*'          # triggers on version tags like v1.2.3
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3  # checkout the repository
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x'
-          bundler-cache: true
+          ruby-version: '3.2.8'    # specify exact Ruby version
+          bundler-cache: true      # enable bundler caching
 
-      - name: Build gem
+      - name: Build gem            # build the gem package
         run: gem build api_solvecaptcha.gemspec
 
-      - name: Push gem to RubyGems
+      - name: Publish to RubyGems  # push the gem to RubyGems.org
         env:
           RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
         run: gem push *.gem
+
+
