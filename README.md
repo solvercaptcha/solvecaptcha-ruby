@@ -97,7 +97,7 @@ Need help integrating with your PHP application? [Open an issue](https://github.
 Add this line to your Gemfile:
 
 ```ruby
-gem 'solvecaptcha', git: 'https://github.com/solvercaptcha/solvecaptcha-ruby.git'
+gem 'solvecaptcha-ruby', git: 'https://github.com/solvercaptcha/solvecaptcha-ruby.git'
 ```
 
 Then run:
@@ -118,7 +118,7 @@ gem specific_install https://github.com/solvercaptcha/solvecaptcha-ruby.git
 Add this line to your application's Gemfile:
 
 ```bash
-gem 'ruby-solvecaptcha'
+gem 'solvecaptcha-ruby'
 ```
 
 And then execute:
@@ -129,7 +129,7 @@ $ bundle
 Or install it yourself as:
 
 ```bash
-$ gem install ruby-solvecaptcha
+$ gem install solvecaptcha-ruby
 ```
 
 ## Configuration
