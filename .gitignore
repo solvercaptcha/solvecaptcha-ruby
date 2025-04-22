@@ -1,0 +1,43 @@
+# Common artifacts
+*.gem
+*.rbc
+*.so
+*~
+
+# Bundler directories
+/.bundle
+/vendor/bundle
+/vendor/cache
+
+# Log and temporary files
+/log
+/tmp
+coverage/
+/doc/
+/pkg/
+
+# Test report files
+/spec/reports
+
+# Environment variable files
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.sw?
+*.swo
+*.swp
+
+# Yarn / Node.js dependencies and logs (if used)
+/node_modules
+yarn-debug.log*
+yarn-error.log*
+
+# Debugger history
+.byebug_history
