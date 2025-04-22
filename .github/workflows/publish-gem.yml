@@ -1,0 +1,26 @@
+name: Publish RubyGem
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.x'
+          bundler-cache: true
+
+      - name: Build gem
+        run: gem build api_solvecaptcha.gemspec
+
+      - name: Push gem to RubyGems
+        env:
+          RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
+        run: gem push *.gem
